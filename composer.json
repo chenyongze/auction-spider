@@ -1,0 +1,24 @@
+{
+    "name": "chenyongze/auction-spider",
+    "description": "拍场、拍品采集",
+    "type": "library",
+    "authors": [
+        {
+            "name": "yongze.chen",
+            "email": "sapphire.php@gmail.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yong\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Yong\\test\\": "test"
+        }
+    }
+}
