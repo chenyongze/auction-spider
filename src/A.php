@@ -9,5 +9,6 @@ class A
     {
         # code...
         echo __FUNCTION__;
+        
     }
 }
