@@ -14,7 +14,10 @@
     "autoload": {
         "psr-4": {
             "Yong\\": "src/"
-        }
+        },
+        "files": [
+            "src/Helper.php"
+        ]
     },
     "autoload-dev": {
         "psr-4": {
